@@ -1,37 +1,62 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-You can use the [editor on GitHub](https://github.com/tarinbuys/Four-card-feature-section/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Four card feature section</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+<header>
+  <h1>Reliable, efficient delivery
+  <span>Powered by Technology</span>
+  </h1>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  <p>Our Artificial Intelligence powered tools use millions of project data points 
+    to ensure that your project is successful</p>
+</header>
 
-### Markdown
+<div class="container">
+  <div class="box box-cyan box-push">
+    <h2>Supervisor</h2>
+    <p>Monitors activity to identify project roadblocks</p>
+    <img src="./images/icon-supervisor.svg" alt="supervisor">
+  </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  <div class="box box-red">
+    <h2>Team Builder</h2>
+    <p>Scans our talent network to create the optimal team for your project</p>
+    <img src="./images/icon-team-builder.svg" alt="team builder">
+  </div>
 
-```markdown
-Syntax highlighted code block
+  <div class="box box-blue box-push">
+    <h2>Calculator</h2>
+    <p>Uses data from past projects to provide better delivery estimates</p>
+    <img src="./images/icon-calculator.svg" alt="calculator">
+  </div>
 
-# Header 1
-## Header 2
-### Header 3
+  <div class="box box-orange">
+    <h2>Karma</h2>
+    <p>Regularly evaluates our talent to ensure quality</p>
+    <img src="./images/icon-karma.svg" alt="karma">
+  </div>
 
-- Bulleted
-- List
+  
 
-1. Numbered
-2. List
+</div>
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tarinbuys/Four-card-feature-section/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<footer>
+  <p>
+      Challenge by <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://buysmanagement.co.za">Tarin Buys</a>.
+  </p>
+</footer>
+</body>
+</html>
